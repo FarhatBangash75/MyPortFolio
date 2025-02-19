@@ -6,7 +6,7 @@ function Service() {
 
  
   return (
-<div className='ser' style={{marginTop:'100px',width:'280px',height:'70px',alignItems:'center', justifyContent:'center',
+<div className='ser' style={{width:'280px',height:'70px',alignItems:'center', justifyContent:'center',
   marginTop:'150px',backgroundColor:"white", marginLeft:'480px',
 }}>
   
