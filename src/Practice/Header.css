@@ -1,0 +1,17 @@
+.Header{
+
+    background-color: blue; 
+    color: white;
+    padding: 10px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+
+}
+.ptext{
+  color: white;
+}

@@ -1,0 +1,55 @@
+.Header2{
+
+
+    color:white;
+    background-color:rgba(0, 0, 0, 0.842);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+
+  
+
+}
+.bar-icon{
+    display: none;
+ }
+@media(max-width:768px){
+    ul{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .bar-icon{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}
+.btn-div{
+   
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+

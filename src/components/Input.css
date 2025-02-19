@@ -1,0 +1,25 @@
+.div{
+    margin-top: 30px;
+}
+.inputs{
+    width: 100%;
+    height: 40px;
+}
+.input-div{
+    position: relative;
+    border: 1px solid lightgray;
+    width: 200px;
+    height: 40px;
+}
+.eye{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+
+}
+
+input[type="password"]::-ms-reveal {
+    display: none;
+}

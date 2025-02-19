@@ -1,0 +1,22 @@
+.main-div{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    color: white;
+}
+.quotes{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    color: white;
+}
