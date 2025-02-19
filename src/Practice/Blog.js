@@ -1,12 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Blog.css'
 
 function Blog() {
-  const [blog,setblog]=useState(false)
+ 
 
-  function showblog(){
-    setblog(!blog)
-  }
+ 
   return (
     <div style={{marginTop:'100px', width:'370px', height:'60px',  marginLeft:'450px', backgroundColor:'white',marginTop:'130px'}}>
     

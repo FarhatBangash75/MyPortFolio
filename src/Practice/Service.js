@@ -1,12 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Service.css'
 
 function Service() {
-  const [show,sethsow] = useState(false)
 
-  function showBox(){
-    sethsow(!show)
-  }
+
+ 
   return (
 <div className='ser' style={{marginTop:'100px',width:'280px',height:'70px',alignItems:'center', justifyContent:'center',
   marginTop:'150px',backgroundColor:"white", marginLeft:'480px',
